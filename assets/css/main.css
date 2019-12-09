@@ -40,6 +40,18 @@
 	font-size: 6em;
 }
 
+.disabled-message {
+	position: absolute;
+	top: -22px;
+	left: 50%;
+	margin-left: -60px;
+	height: 30px;
+	width: 120px;
+	background: white;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	text-align: center;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2730,20 +2742,7 @@ input[type="button"] .fab {
 		ul.actions li {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
-			position: relative;
-		}
-
-		.disabled-message {
-			position: absolute;
-			top: -18px;
-			left: 50%;
-			margin-left: -55px;
-			height: 30px;
-			width: 110px;
-			background: white;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			text-align: center;
-			color: #c7cacc;
+			/* position: relative; */
 		}
 
 		ul.actions.special {
@@ -4292,7 +4291,7 @@ input[type="button"] .fab {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			padding: 4rem 4rem 2rem 4rem ;
-			border-left: solid 2px #e2e2e2;
+			/* border-left: solid 2px #e2e2e2; */
 		}
 
 			#footer > section:first-child {

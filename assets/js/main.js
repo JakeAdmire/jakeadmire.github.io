@@ -144,11 +144,11 @@
 
 		// Panel.
 			$navPanel = $(
-				'<div id="navPanel">' +
-					'<nav>' +
-					'</nav>' +
-					'<a href="#navPanel" class="close"></a>' +
-				'</div>'
+				`<div id="navPanel">
+					<nav>
+					</nav>
+					<a href="#navPanel" class="close"></a>
+				</div>`
 			)
 				.appendTo($body)
 				.panel({
