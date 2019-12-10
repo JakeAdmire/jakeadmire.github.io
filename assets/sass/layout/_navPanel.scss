@@ -111,11 +111,10 @@
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 
 			&:before {
-				content: '\f00d';
+				// content: '\f00d';
 				font-size: 1.25rem;
 			}
 
